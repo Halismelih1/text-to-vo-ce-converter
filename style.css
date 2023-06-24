@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 9;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    }
+    .hero{
+    width: 100%;
+    min-height:100vh;
+    background: linear-gradient(45deg, #ac9517, #41015a);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    }
+    
+    .hero h1{
+    font-size: 45px;
+    font-weight:500;
+    margin-bottom:50px;
+    color: #fff;
+    }
+
+    .hero h1 span{
+        color: #eb672a;
+    }
+    
+    textarea{
+    width: 600px;
+    height: 250px;
+    background: linear-gradient(45deg, #35342c, #7c023f);
+    color: #000000;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 20px;
+    resize: none;
+    margin-bottom: 30px;
+    }
+
+    .row{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    button{
+
+height: 40px;        
+color: #b96c13;
+padding: 10px 30px;
+cursor: pointer;
+background: linear-gradient(45deg, #35342c, #7c023f);
+font-size: 14px;
+padding: 10px 30px;
+border-radius: 35px;
+border: 0;
+outline: 0;
+display: flex;
+text-align: center;
+    
+}
+
+button img{
+    width: 16px;
+    margin-right: 10px;
+    margin-top:2px;
+    
+}
+
+select{
+    flex:1;
+    color: #b96c13;
+    background-color:rgb(65, 18, 53) ;
+    height: 40px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    font-size: 14px;
+}
+    
